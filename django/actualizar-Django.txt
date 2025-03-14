@@ -1,0 +1,30 @@
+Paso 1: Verificar la versión actual
+Antes de actualizar Django, es recomendable verificar la versión actualmente instalada en tu entorno. Puedes hacerlo ejecutando el siguiente comando:
+
+bash
+Copy code
+pip show django
+Esto te dará información sobre la versión actual instalada.
+
+Paso 2: Actualizar Django
+Para actualizar Django, utiliza el siguiente comando:
+
+bash
+Copy code
+pip install --upgrade django
+Este comando instalará la última versión disponible de Django y actualizará tu instalación actual.
+
+Paso 3: Verificar la nueva versión
+Para asegurarte de que la actualización fue exitosa, puedes verificar nuevamente la versión instalada:
+
+bash
+Copy code
+pip show django
+Ahora deberías ver la nueva versión instalada.
+
+Nota importante:
+Ten en cuenta que si estás trabajando en un proyecto Django específico, es posible que también desees actualizar la versión de Django en el archivo requirements.txt o cualquier otro archivo de dependencias de tu proyecto para que todos los desarrolladores del proyecto utilicen la misma versión.
+
+Si estás utilizando un entorno virtual, asegúrate de activarlo antes de ejecutar los comandos mencionados anteriormente para garantizar que la actualización se aplique al entorno correcto.
+
+Recuerda revisar la documentación oficial de Django para conocer cualquier cambio importante entre versiones y ajustar tu código según sea necesario.

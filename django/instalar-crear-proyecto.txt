@@ -1,0 +1,47 @@
+Paso 1: Instalar Python
+Asegúrate de tener Python instalado en tu sistema. Puedes descargar la última versión de Python desde el sitio web oficial de Python.
+
+Paso 2: Instalar Django
+Abre tu terminal o línea de comandos y ejecuta el siguiente comando para instalar Django utilizando pip, el gestor de paquetes de Python:
+
+bash
+Copy code
+pip install Django
+Paso 3: Crear un nuevo proyecto Django
+Una vez que hayas instalado Django, puedes crear un nuevo proyecto Django con el siguiente comando. Reemplaza "nombre_del_proyecto" con el nombre que desees para tu proyecto:
+
+bash
+Copy code
+django-admin startproject nombre_del_proyecto
+Este comando creará una carpeta llamada "nombre_del_proyecto" con la estructura inicial de un proyecto Django.
+
+Paso 4: Acceder al directorio del proyecto
+Ingresa al directorio del proyecto recién creado:
+
+bash
+Copy code
+cd nombre_del_proyecto
+
+Paso 5: Aplicar migraciones
+Las migraciones son una forma de actualizar la base de datos de acuerdo con los modelos de tu aplicación. Ejecuta los siguientes comandos:
+
+bash
+Copy code
+python manage.py makemigrations
+python manage.py migrate
+
+Paso 6: Crear un superusuario (opcional)
+Si deseas acceder al panel de administración de Django, puedes crear un superusuario con el siguiente comando:
+
+bash
+Copy code
+python manage.py createsuperuser
+Sigue las instrucciones para ingresar un nombre de usuario, una dirección de correo electrónico y una contraseña para el superusuario.
+
+Paso 7: Ejecutar el servidor de desarrollo
+Inicia el servidor de desarrollo de Django con el siguiente comando:
+
+bash
+Copy code
+python manage.py runserver
+Esto iniciará el servidor en http://127.0.0.1:8000/. Puedes abrir este enlace en tu navegador para ver tu aplicación de Django en funcionamiento.
