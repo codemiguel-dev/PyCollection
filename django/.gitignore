@@ -1,3 +1,2 @@
-# Ignorar archivos .docx y .txt
-*.docx
-*.txt
+/PyCollection/django/*.docx
+/PyCollection/django/*.txt
