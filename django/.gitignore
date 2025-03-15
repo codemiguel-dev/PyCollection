@@ -1,6 +1,3 @@
-# Ignorar archivos .docx
-/course_django.docx
-/Proyecto_Django_manager_web.docx
+# Ignorar archivos .docx y .txt
+*.docx
 *.txt
-
-
