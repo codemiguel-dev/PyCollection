@@ -1,7 +1,6 @@
 # Ignorar archivos .docx
 /course_django.docx
 /Proyecto_Django_manager_web.docx
-/actualizar_django.txt
-/instalar-crear-proyecto.txt
+*.txt
 
 
